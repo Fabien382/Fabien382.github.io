@@ -163,6 +163,21 @@ $(document).ready(function() {
     initAnimations();
     ramdomImage();
     textDefilant();
+<<<<<<< HEAD
+=======
+    $(function(){
+        var inputs = $('.input');
+        var paras = $('.description-flex-container').find('p');
+        inputs.click(function(){
+            var t = $(this),
+                    ind = t.index(),
+                    matchedPara = paras.eq(ind);
+            
+            t.add(matchedPara).addClass('active');
+            inputs.not(t).add(paras.not(matchedPara)).removeClass('active');
+        });
+    });
+>>>>>>> 01960ef2ed36e347d1dac30daa85d40cb16002b2
 });
 
 $(window).on("load", function() {
