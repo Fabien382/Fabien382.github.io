@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta charset="UTF-8" />
+  <meta name="author" content="Fabien Nivon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <title>Porfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.2/venobox.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/style.css" async defer />
+  <script src="https://kit.fontawesome.com/188a1578d1.js" crossorigin="anonymous"></script>
+  <script src="lib/typed.min.js"></script>
+</head>
+
+<body>
+  <div class="loader">
+    <div class="loading"></div>
+  </div>
+  <section id="home" class="page overlay">
+    <div class="container">
+      <div class="content cover text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="mt-0 mb-4 animated hiding" data-animation="fadeInDown" data-delay="300">
+              Fabien Nivon
+            </h1>
+            <a class="mt-0 mb-4 btn btn-dark nav-external animated hiding" data-animation="fadeIn" data-delay="1000"
+              href="#profil">Voir Plus</a>
+            <h3 class="mt-0 mb-0 animated hiding" data-animation="fadeIn" data-delay="600">
+              <span id="typed"></span>
+            </h3>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="navbar-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed">
+      <div class="container">
+        <a class="navbar-brand nav-external" href="#home">Fabien Nivon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profil">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competence">Compétence</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Expérience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/Veille_techno.html">Veille technologique</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <section id="profil" class="page">
+    <div class="container">
+      <div class="content text-center">
+        <div class="heading icon animated hiding" data-animation="fadeInUp" data-delay="300">
+          <i class="far fa-user fa-5x"></i>
+          <br />
+          <p class="mt-4 mb-0">
+            Bonjour et bienvenue sur mon portfolio, j'ai 21 ans et je suis
+            actuellement étudiant en Licence Informatique avec l'option spécialisée pour le
+            développement en alternance.          </p>
+          <p class="mt-4 mb-0">
+            Aujourd'hui je suis à la recherche d'une alternance pour l'année prochaine sur la région lyonnaise.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- The Timeline -->
+
+  <ul class="timeline">
+    <!-- Item 1 -->
+    <li>
+      <div class="direction-l">
+        <div class="flag-wrapper">
+          <span class="flag">Mastère</span>
+          <span class="time-wrapper"><span class="time">2022 - 2024</span>
+        </div>
+        <div class="desc">
+          À Ynov Lyon - Expert en développement Web
+        </div>
+      </div>
+    </li>
+
+    <!-- Item 2 -->
+    <li>
+      <div class="direction-r">
+        <div class="flag-wrapper">
+          <span class="flag">Licence Informatique</span>
+          <span class="time-wrapper"><span class="time">2021 - 2022</span>
+        </div>
+        <div class="desc">
+          Au CNAM de Saint-Etienne
+        </div>
+      </div>
+    </li>
+
+    <!-- Item 3 -->
+    <li>
+      <div class="direction-l">
+        <div class="flag-wrapper">
+          <span class="flag">BTS SIO opt SLAM</span>
+          <span class="time-wrapper"><span class="time">2019 - 2021</span>
+        </div>
+        <div class="desc">
+          Au lycée Ella Fitzgerald, 69560 Saint-Romain-en-Gal
+        </div>
+      </div>
+    </li>
+
+    <!-- Item 4 -->
+    <li>
+      <div class="direction-r">
+        <div class="flag-wrapper">
+          <span class="flag">BAC STI2D opt SIN</span>
+          <span class="time-wrapper"><span class="time">2017 - 2019</span>
+        </div>
+        <div class="desc">Avec la mention Bien. Au lycée Galilé, 38200 Vienne</div>
+      </div>
+    </li>
+  </ul>
+
+  <section id="competence" class="page">
+    <div class="container">
+      <div class="content text-center">
+        <div class="heading">
+
+          <h2 class="mt-0 mb-4">Compétence</h2>
+          <div class="border"></div>
+          <p class="mt-4 mb-0">
+            Ce que je fais et les technologies que j'utilise
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 icon animated hiding" data-animation="fadeInUp" data-delay="300">
+            <i class="fas fa-globe-europe fa-5x"></i>
+            <h3 class="mt-5 mb-4">Front end</h3>
+            <p>
+              Le Front End c’est la partie du code qui est reçue par le
+              client. Je rappelle que le client c’est notre navigateur Web. Il
+              s’agit finalement des éléments du site web que l’on aperçoit à
+              l’écran et avec lesquels on pourra interagir. Ces éléments sont
+              composés de 3 langages:
+              <strong>HTML, CSS et Javascript</strong> et peuvent etre aidés
+              par des framework tels que <strong>Bootstrap</strong>.
+            </p>
+          </div>
+          <div class="col-sm-4 icon animated hiding" data-animation="fadeInUp" data-delay="600">
+            <i class="fa fa-cloud fa-5x"></i>
+            <h3 class="mt-5 mb-4">Back end</h3>
+            <p>
+              Le Back End est la partie qu'on ne voit pas en tant que simple
+              internaute. Plus précisement, c'est la partie du code qui est
+              exécutée par le serveur ou la base de données. Elle représente
+              une très grande partie d’un projet web. Les langages pour le
+              Back End que j'utilise sont
+              <strong>PHP, C#, Java, SQL</strong>.
+            </p>
+          </div>
+          <div class="col-sm-4 icon animated hiding" data-animation="fadeInUp" data-delay="900">
+            <i class="fa fa-mobile fa-5x"></i>
+            <h3 class="mt-5 mb-4">Mobile Development</h3>
+            <p>
+              Le mobile development c'est la conception d'applications
+              mobiles, pour développer des applications sous Android j'utilise
+              <strong>Android Studio</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content text-center">
+        <div class="row">
+          <div class="col-sm-4 icon animated hiding" data-animation="fadeInUp" data-delay="300">
+            <i class="fas fa-laptop-code fa-5x"></i>
+            <h3 class="mt-5 mb-4">Environnement de développement</h3>
+            <p>
+              Un environnement de développement intégré, ou IDE, est un
+              logiciel de création d'applications, qui rassemble des outils de
+              développement fréquemment utilisés dans une seule interface
+              utilisateur graphique (GUI). J'utilise
+              <strong>Visual Studio Code</strong> pour du Web (J'ai déjà
+              utilisé <strong>PhpStrom</strong>),
+              <strong>IntelliJ</strong> pour du <strong>Java</strong>(Ainsi
+              que <strong>Eclipse</strong>),
+              <strong>Visual Studio</strong> pour du <strong>C#</strong>.
+            </p>
+          </div>
+          <div class="col-sm-4 icon animated hiding" data-animation="fadeInUp" data-delay="600">
+            <i class="fas fa-database fa-5x"></i>
+            <h3 class="mt-5 mb-4">Base de données</h3>
+            <p>
+              Une base de données (que nous nommerons BDD par commodité) est
+              une collection d’informations organisées afin d’être facilement
+              consultables, gérables et mises à jours. J'utilise
+              <strong>MySQL</strong> et <strong>PostgreSQL</strong> comme
+              systèmes de gestions de bases de données,
+              <strong>SQL</strong> en langage servant à exploiter ses bases de
+              données, j'ai déjà fait du <strong>PL/pgSQL</strong> et du
+              <strong>PL/SQL</strong>
+            </p>
+          </div>
+          <div class="col-sm-4 icon animated hiding" data-animation="fadeInUp" data-delay="900">
+            <i class="fab fa-git-square fa-5x"></i>
+            <h3 class="mt-5 mb-4">Outil de gestion</h3>
+            <p>
+              En outil de gestion j'utilise git (<strong>GitHub et GitLab</strong>) pour le développement collaboratif
+              et
+              le stockage de mes
+              projets, j'ai déjà utilisé <strong>Jira</strong>, <strong>Trello</strong> et <strong>ClickUp</strong> pour de la gestion de projet et <strong>Jenkins</strong> comme outil
+              d’intégration continue
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="work" class="page">
+    <div class="container">
+      <div class="content text-center">
+        <div class="heading">
+          <h2 class="mt-0 mb-4">Expérience</h2>
+          <div class="border"></div>
+          <p class="mt-4 mb-0">
+            Voici une partie des différents projets, expériences et stages que
+            j'ai réalisés dans ma jeune carrière
+          </p>
+        </div>
+        <div id="filters" class="text-center button-group">
+          <button class="filtres btn activeBtnTrie" data-filter="*">
+            Tout
+          </button>
+          <button class="filtres btn" data-filter=".etudiant">Etudiant</button>
+          <button class="filtres btn" data-filter=".stage">Stage</button>
+          <button class="filtres btn" data-filter=".personnel">Personnel</button>
+        </div>
+        <div class="container mt-5 animated hiding" data-animation="fadeIn">
+          <div class="row grid row-cols-1 row-cols-md-3 g-4">
+            <div class="carte col element-item etudiant">
+              <div class="card">
+                <a href="page/lesApprentitEpanouis.html">
+                  <img src="img/work/LesApprentitEpanouis.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Les apprentit epanouis</h5>
+                    <p class="card-text">Création d'un site web - HTML/CSS/Bootstrap</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carte col element-item stage">
+              <div class="card">
+                <a href="page/com&company.html">
+                  <img src="img/work/comCompany2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Com & company</h5>
+                    <p class="card-text">Stage de deuxième année de 8 semaines - Framework MVC Laravel, vueJS, MySQL</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carte col element-item etudiant">
+              <div class="card">
+                <a href="page/gedimat.html">
+                  <img src="img/work/gedimat.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Gedemi'gination</h5>
+                    <p class="card-text">Projet de fin d'année - PHP, API REST, HTML/CSS/Bootstrap, Android Studio,
+                      MySQL</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carte col element-item personnel">
+              <div class="card">
+                <a href="page/portfolio.html">
+                  <img src="img/work/portfolio.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Portfolio Numérique</h5>
+                    <p class="card-text">Création de mon Portfolio numérique - HTML, CSS, Bootstrap, JavaScript</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carte col element-item stage">
+              <div class="card">
+                <a href="#">
+                  <img src="img/work/comCompany2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Levell</h5>
+                    <p class="card-text">Alternance de troisième année</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carte col element-item etudiant">
+              <div class="card">
+                <a href="page/odoo.html">
+                  <img src="img/work/odoo.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Data2odoo</h5>
+                    <p class="card-text">Projet de fin d'année - C#, PostgreSQL</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="page overlay">
+    <div class="container">
+      <div class="content cover text-center">
+        <div class="heading animated hiding" data-animation="fadeIn" data-delay="600">
+          <h2 class="mt-0 mb-4">Entrer en contact</h2>
+          <div class="border"></div>
+          <a class="bi bi-file-earmark-person fa-3x" href="doc/cv.pdf" target="_blank"></a>
+          <h5>Télécharge mon CV</h5>
+          <br />
+        </div>
+        <div class="row">
+          <div class="col-sm-4 animated hiding" data-animation="fadeInRight" data-delay="600">
+            <i class="fa fa-map-marker fa-3x"></i>
+            <a href="https://www.google.fr/maps/place/38200+Vienne/@45.5221367,4.8453114,13z/data=!3m1!4b1!4m5!3m4!1s0x47f4df0824f5f985:0xc4e1bb60b45a03c3!8m2!3d45.525587!4d4.874339"
+              target="_blank">Vienne, France</a>
+          </div>
+          <div class="col-sm-4 animated hiding" data-animation="fadeInDown" data-delay="300">
+            <i class="fa fa-phone fa-3x"></i>
+            <a href="tel:0768258526">+33 7 68 25 85 26</a>
+          </div>
+          <div class="col-sm-4 animated hiding" data-animation="fadeInLeft" data-delay="600">
+            <i class="fa fa-envelope fa-3x"></i>
+            <a href="mailto:fabien.nvn@gmail.com" target="_blank">fabien.nvn@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 animated hiding" data-animation="fadeInUp">
+          <ul class="social list-inline">
+            <li class="list-inline-item">
+              <a class="github" href="https://github.com/Fabien382" title="GitHub">
+                <i class="bi bi-github fa-2x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="twitter" href="https://twitter.com/FabienNvn" title="Twitter">
+                <i class="bi bi-twitter fa-2x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="linkedin" href="https://fr.linkedin.com/in/fabien-nivon-82081b19b" title="Linkedin">
+                <i class="bi bi-linkedin fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">Crédit : Fabien Nivon</p>
+          <a href="mentionsLegals.html">Mention Legal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
